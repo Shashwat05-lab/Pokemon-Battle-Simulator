@@ -3,7 +3,6 @@ from pokemon import Pokemon
 
 class TestPokemon(unittest.TestCase):
     def setUp(self):
-        # Set up the Pokemon instances for testing
         self.pokemon1 = Pokemon(
             name="Pikachu",
             type1="electric",

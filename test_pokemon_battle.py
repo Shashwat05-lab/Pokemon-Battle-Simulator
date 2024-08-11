@@ -11,7 +11,6 @@ class TestPokemonBattleAPI(unittest.TestCase):
 
     @patch('pokemon_battle.Pokemon')
     def test_load_pokemons(self, MockPokemon):
-        # Mock the Pokemon constructor to avoid actual instantiation
         mock_pokemon_instance = MagicMock(spec=Pokemon)
         MockPokemon.return_value = mock_pokemon_instance
 
@@ -54,11 +53,9 @@ class TestPokemonBattleAPI(unittest.TestCase):
         MockBattle.return_value = mock_battle_instance
         mock_battle_instance.battle_id = 'mock_id'
 
-        # Mock the executor instance and its submit method
         mock_executor_instance = MagicMock()
         MockExecutor.return_value = mock_executor_instance
 
-        # Start a battle
         battle_id = self.api.start_battle('Bulbasaur', 'Charmander')
 
         self.assertEqual(battle_id, 'mock_id')
