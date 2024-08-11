@@ -1,0 +1,3 @@
+name,type1,type2,attack,against_normal,against_fire
+                        Bulbasaur,grass,poison,49,1.0,0.5
+                        Charmander,fire,,52,1.0,0.5
