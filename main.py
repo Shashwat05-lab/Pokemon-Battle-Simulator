@@ -10,7 +10,7 @@ battle_api.load_pokemons('Requirement\\pokemon.csv')
 print(battle_api.get_pokemons(page=1, per_page=10))
 
 # Start a battle between two Pokémon
-battle_id = battle_api.start_battle('Pikechu', 'Pikachu')
+battle_id = battle_api.start_battle('Pikachu', 'Charizard')
 if battle_id:
     print(f"Battle started with ID: {battle_id}")
 
