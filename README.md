@@ -4,16 +4,9 @@ Pokemon Battle
 
 Shashwat Dobhal
 
-OVERVIEW
-This program is a simple Pokemon battle simulator.
+OVERVIEW: This program is a simple Pokemon battle simulator.
 
-Running the Program
-Make sure all python files are in the same directory. 
-This includes:
-    1. battle.py
-    2. main.py
-    3. pokemon_battle.py
-    4. pokemon.py
+Running the Program: Make sure all python files are in the same directory. This includes: battle.py, main.py, pokemon_battle.py, pokemon.py
 
 Make sure your data file is in CSV format and is present in Requirement Directory
 
